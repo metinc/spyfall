@@ -111,6 +111,18 @@
                 "chorister": "Chorsänger",
                 "parishioner": "Mitglied der Kirchengemeinde"
             },
+            "cemetery": {
+                "priest": "Priester",
+                "grave robber": "Grabräuber",
+                "poet": "Poet",
+                "mourning person": "Trauernde Person",
+                "gatekeeper": "Torwächter",
+                "dead person": "Tote Person",
+                "relative": "Angehöriger",
+                "flower seller": "Blumenverkäufer",
+                "grave digger": "Totengräber",
+                "gothic girl": "Gothic Girl"
+            },
             "circus tent": {
                 "acrobat": "Akrobat",
                 "animal trainer": "Dompteur",
