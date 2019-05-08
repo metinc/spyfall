@@ -8,9 +8,10 @@ Handlebars.registerHelper('toCapitalCase', function (str) {
 });
 
 function initUserLanguage() {
-  var language = amplify.store("language");
+  var language = amplify.store("language") || navigator.language || navigator.userLanguage;
 
   if (language){
+    language = language.substr(0, 2);
     Session.set("language", language);
   }
 
